@@ -1,0 +1,324 @@
+body{
+     background: url('img/1.jpg');
+     height: 100%
+     width:100%;
+     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.container-1{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+  margin-top: 230px;
+  padding:0;
+  font-family: Nunito;
+  height: 90%;
+  width:90%;
+  margin-left: 60px;
+}
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.navbar{
+    background-color: black;
+}
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+.img-full {
+    min-width: 100%;
+}
+
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 50px 20px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+.container-2 {
+  max-width: 900px;
+  margin: 0 auto;
+
+}
+
+section.module.parallax {
+  padding: 100px 0;
+  background-position: 0 0;
+  background-attachment: fixed;
+}
+section.module.parallax h1 {
+  color: #1e1e1e;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px white;
+}
+section.module.parallax h1 {
+    font-size: 50px;
+}
+section.module.parallax-1 {
+  background-image: url('img/rev1.jpg');
+}
+section.module.parallax-2{
+  background-image: url('img/rev.jpg');
+
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module.parallax {
+    padding: 300px 0;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+.cbp-af-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    background: #f6f6f6;
+    z-index: 10000;
+    height: 230px;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    margin-top: 30px;}
+
+.navbar-header {
+    float: left;
+    margin-top: -10px;
+}
+.navbar-nav {
+    float: left;
+    margin-top: -10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: aqua;
+}
+
+.profile-card{
+    background-color: transparent;
+  margin-bottom: 20px;
+            }
+        
+.profile-pic {
+  border-radius: 50%;
+  position: absolute;
+  top: -65px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  max-width: 100px;
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+                }
+
+                
+.profile-info {
+        color: #BDBDBD;
+        padding: 25px;
+        position: relative;
+        margin-top: 15px;
+                }
+        
+.profile-info h2 {
+    color: #E8E8E8;
+    letter-spacing: 4px;
+      padding-bottom: 12px;
+                }
+                
+.profile-info span {
+    display: block;
+    font-size: 20px;
+    color: darkgreen;
+    letter-spacing: 2px;
+}
+
+.profile-info a {
+     color: #4CB493;
+        }
+.profile-info i {
+        padding: 15px 35px 0px 35px;
+        }
+        
+
+.profile-card:hover .profile-pic {
+    
+    transform: scale(1.1);
+        }
+
+.profile-card:hover .profile-info hr  {
+    opacity: 1;
+        }
+.text{
+    color :#696969;
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 52%;
+  right: 52%;
+  bottom: 0;
+  background: #FFFFFF;
+  border-radius: 50%;
+  height: 3px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.profile-card:hover .hvr-underline-from-center:before, .profile-card:focus .hvr-underline-from-center:before, .profile-card:active .hvr-underline-from-center:before {
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #CECECE;
+}
